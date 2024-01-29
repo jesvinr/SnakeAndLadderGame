@@ -22,8 +22,8 @@ public class SnakeAndLadderGame extends Application {
 
     public static int rand;
     public Label randResult;
-    public int blockWidth;
-    public int blockHeight;
+//    public int blockWidth;
+//    public int blockHeight;
     public int[][] cirPosX = new int[10][10];
     public int[][] cirPosY = new int[10][10];
     public int[][] ladderPos = new int[6][3];
@@ -32,8 +32,8 @@ public class SnakeAndLadderGame extends Application {
     public static final int height = 10;
     public Circle player1;
     public Circle player2;
-    public int player1Position;
-    public int player2Position;
+//    public int player1Position;
+//    public int player2Position;
     public boolean player1Turn = true;
     public boolean player2Turn = false;
     public static int player1XPos = 30;
