@@ -44,7 +44,7 @@ public class SnakeAndLadderGame extends Application {
     public int posCir2 = 1;
     public boolean gameStart;
     public Button gameButton;
-    private Group tileGroup = new Group();
+    private final Group tileGroup = new Group();
 
 
     private void getDiceValue () {
